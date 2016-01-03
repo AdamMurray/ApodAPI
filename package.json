@@ -1,0 +1,31 @@
+{
+  "name": "ApodAPI",
+  "version": "1.0.0",
+  "description": "APOD API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdamMurray/ApodAPI.git"
+  },
+  "author": "Adam Murray",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/AdamMurray/ApodAPI/issues"
+  },
+  "homepage": "https://github.com/AdamMurray/ApodAPI",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "colors": "^1.1.2",
+    "cron": "^1.0.9",
+    "express": "^4.13.1",
+    "mongoose": "^4.0.7",
+    "mongoose-random": "^0.1.1",
+    "nodemon": "^1.3.7",
+    "request": "^2.57.0",
+    "winston": "^1.0.1"
+  }
+}
